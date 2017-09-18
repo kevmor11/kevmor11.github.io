@@ -1,0 +1,263 @@
+/* Main page */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+/* Spacers */
+
+.space {
+  width: 45px;
+  height: 2px;
+  margin: 25px auto 15px auto;
+  background-color: #7FFFD3;
+  padding: auto;
+}
+
+.space-2 {
+  width: 100px;
+  height: 2px;
+  margin: 25px auto 30px auto;
+  background-color: #7FFFD3;
+  padding: auto;
+
+}
+
+hr {
+  margin: 50px 0;
+  border-top: 1px solid #bcb8b8;
+}
+
+/* Nav - Bar */
+
+.navbar {
+  width: 100%;
+  max-height: 50px;
+}
+.navbar-default {
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  color: #777;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  max-height: 50px;
+}
+.navbar-nav {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  float: none;
+  font-size: 1em;
+  font-weight: bold;
+  max-height: 50px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  background: none;
+}
+
+.navbar-collapse {
+  background-color: white;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
+/* Main Home */
+.home-page {
+  height: 600px;
+  width: 100%;
+}
+
+/* Contact */
+.contact {
+  background-color: rgb(247, 247, 247);
+}
+
+
+
+/* Projects  */
+.project-pic {
+  min-width: 100px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.page-projects {
+  background-color: rgb(247, 247, 247);
+}
+
+.tech-stack {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.tech-list {
+  font-size: 1.25em;
+}
+
+
+/* Profile */
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  padding: 4px;
+  margin:10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.profile {
+  background-color: #B1FFE3;
+  min-height: 400px;
+  display: grid;
+}
+
+.about-me {
+  font-size: 1.5em;
+}
+
+.profile .container {
+  display: grid;
+}
+
+.btn {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.fa-file-text,
+.fa-linkedin-square,
+.fa-github {
+  color: white;
+}
+
+.white {
+  color:white;
+}
+
+.size-1 {
+  font-size: 7em;  
+}
+
+.size-2 {
+  font-size: 2em;
+}
+
+/* Design Quotes */
+.design-quote {
+  background-color: #f7f7f7;
+}
+
+.sub-heading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.quote {
+  padding: 0 20px;
+  font-size: 16px;
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+/* Carousel */
+.page-welcome {
+  height: 700px;
+}
+
+.slider-controls {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.slider-controls li {
+    list-style: none;
+}
+#page-welcome:hover .slider-controls {
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.slider-controls li a {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.next {
+    background: url("../img/next.png");
+    margin-right: 70px;
+    right: 0;
+    opacity: 0.3;
+}
+.prev {
+    background: url("../img/prev.png");
+    margin-left: 70px;
+    left: 0;
+    opacity: 0.3;
+}
+.next:hover, .prev:hover {
+    opacity: 1;
+}
+
+
+@media(max-width:992px) {
+  #page-about .profile-pic {
+      margin: 0 auto 20px auto;
+  }
+}
+@media (max-width: 479px) {
+  #page-welcome header h1 {
+      font-size: 3.5em;
+  }
+  #page-welcome header p {
+      font-size: 1em;
+      line-height: 3em;
+  }
+
+  .container p {
+      font-size: 1.2em;
+  }
+  #page-skills {
+      text-align: center;
+  }
+  #page-profile .profile {
+      margin: 0 auto 20px auto;
+  }
+}
