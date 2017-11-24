@@ -134,6 +134,15 @@ hr {
   background-color: #fff;
 }
 
+.col-sm-3 {
+  width: 18%;
+  margin: 0 10px;
+}
+
+.custom-column {
+  margin-top: 3.5em;
+}
+
 .profile {
   background-color: #e3e9f2;
   min-height: 400px;
