@@ -35,7 +35,6 @@ h1 {
   margin: 25px auto 30px auto;
   background-color: #e3e9f2;
   padding: auto;
-
 }
 
 hr {
@@ -43,12 +42,14 @@ hr {
   border-top: 1px solid #bcb8b8;
 }
 
+
 /* Nav - Bar */
 
 .navbar {
   width: 100%;
   max-height: 50px;
 }
+
 .navbar-default {
   background: rgba(255, 255, 255, 0.85);
   border: none;
@@ -59,6 +60,7 @@ hr {
   position: fixed;
   max-height: 50px;
 }
+
 .navbar-nav {
   margin: 0 auto;
   padding: 0;
@@ -69,9 +71,12 @@ hr {
   font-weight: bold;
   max-height: 50px;
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
 }
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
@@ -86,20 +91,24 @@ hr {
   background-color: white;
 }
 
+
 /* Main Home */
+
 .home-page {
   height: 600px;
   width: 100%;
 }
 
+
 /* Contact */
+
 .contact {
   background-color: rgb(247, 247, 247);
 }
 
 
-
 /* Projects  */
+
 .project-pic {
   min-width: 100px;
   max-width: 100%;
@@ -123,11 +132,12 @@ hr {
 
 
 /* Profile */
+
 .profile-pic {
   border-radius: 50%;
   width: 250px;
   padding: 4px;
-  margin:10px;
+  margin: 10px;
   margin-top: 3.5em;
   margin-left: -5em;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
@@ -161,6 +171,7 @@ hr {
   font-size: 30px;
   margin-top: 20px;
 }
+
 .fa-file-text,
 .fa-linkedin-square,
 .fa-github {
@@ -168,7 +179,7 @@ hr {
 }
 
 .white {
-  color:white;
+  color: white;
 }
 
 .size-1 {
@@ -179,7 +190,9 @@ hr {
   font-size: 2em;
 }
 
+
 /* Design Quotes */
+
 .design-quote {
   background-color: #f7f7f7;
 }
@@ -198,77 +211,88 @@ hr {
 }
 
 
-
 /* Carousel */
+
 .page-welcome {
   height: 700px;
 }
 
 .slider-controls {
-    opacity: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-.slider-controls li {
-    list-style: none;
-}
-#page-welcome:hover .slider-controls {
-    opacity: 1;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-.slider-controls li a {
-    position: absolute;
-    z-index: 10;
-    top: 40%;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-}
-.next {
-    background: url("../img/next.png");
-    margin-right: 70px;
-    right: 0;
-    opacity: 0.3;
-}
-.prev {
-    background: url("../img/prev.png");
-    margin-left: 70px;
-    left: 0;
-    opacity: 0.3;
-}
-.next:hover, .prev:hover {
-    opacity: 1;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
+.slider-controls li {
+  list-style: none;
+}
+
+#page-welcome:hover .slider-controls {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slider-controls li a {
+  position: absolute;
+  z-index: 10;
+  top: 40%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.next {
+  background: url("../img/next.png");
+  margin-right: 70px;
+  right: 0;
+  opacity: 0.3;
+}
+
+.prev {
+  background: url("../img/prev.png");
+  margin-left: 70px;
+  left: 0;
+  opacity: 0.3;
+}
+
+.next:hover,
+.prev:hover {
+  opacity: 1;
+}
 
 @media(max-width:992px) {
   #page-about .profile-pic {
-      margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto;
   }
 }
+
 @media (max-width: 479px) {
   #page-welcome header h1 {
-      font-size: 3.5em;
+    font-size: 3.5em;
   }
   #page-welcome header p {
-      font-size: 1em;
-      line-height: 3em;
+    font-size: 1em;
+    line-height: 3em;
   }
-
   .container p {
-      font-size: 1.2em;
+    font-size: 1.2em;
   }
   #page-skills {
-      text-align: center;
+    text-align: center;
   }
   #page-profile .profile {
-      margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto;
   }
+}
+
+h3.more {
+  padding-bottom: 1em;
+  text-align: center;
 }
