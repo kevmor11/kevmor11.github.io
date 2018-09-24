@@ -294,6 +294,10 @@ hr {
   img.profile-pic {
     margin-left: 0 !important;
   }
+  .custom-column {
+    margin-top: 0 !important;
+    margin-left: 25px !important;
+  }
 }
 
 h3.more {
