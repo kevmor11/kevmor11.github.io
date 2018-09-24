@@ -291,6 +291,9 @@ hr {
   #page-profile .profile {
     margin: 0 auto 20px auto;
   }
+  img.profile-pic {
+    margin-left: 0 !important;
+  }
 }
 
 h3.more {
