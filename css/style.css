@@ -292,7 +292,8 @@ hr {
     margin: 0 auto 20px auto;
   }
   img.profile-pic {
-    margin-left: 0 !important;
+    margin: 0 auto;
+    display: block;
   }
   .custom-column {
     margin-top: 0 !important;
