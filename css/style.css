@@ -114,8 +114,8 @@ hr {
   min-width: 100px;
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  border: 1px solid black;
+  border-radius: 4px;
+  border: 1px solid darkgrey;
 }
 
 .page-projects {
